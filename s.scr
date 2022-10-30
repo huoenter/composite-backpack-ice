@@ -1,0 +1,10 @@
+var bp = new Backpack(List.of());
+var dp = new Book("Design Patterns");
+List<Item> items = List.of(bp, dp);
+items
+var backpack = new Backpack(List.of(
+                              new Book("Design Patterns"),
+                              new Book("Calculus I"),
+                              new Backpack(List.of(
+                                            new Book("Comp Org"))),
+                              new Book("Intro to Opera")));
